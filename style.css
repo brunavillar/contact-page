@@ -1,0 +1,67 @@
+@font-face{ 
+	font-family: 'Amiko';
+	src: url('Amiko.eot');
+	src: url('Amiko.eot?iefix') format('eot'),
+	     url('Amiko.woff') format('woff'),
+	     url('Amiko.ttf') format('truetype'),
+	     url('Amiko.svg#webfont') format('svg');
+}
+
+body {
+    background-color: #FFFFFF;
+    padding: 28 0px;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+
+.content-box {
+    position: relative;
+    width: 940px;
+    margin-top: 128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#p1 {
+    padding-top: 16px;
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    width: 624px;
+}
+
+#p2 {
+    padding-top: 16px;
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    width: 624px;
+}
+
+.social {
+    position: relative;
+    padding-top: 32px;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 12px;    
+}
